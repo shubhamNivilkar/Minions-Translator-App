@@ -7,7 +7,7 @@ const textOutput = document.querySelector("#text-output");
 
 const url = "https://api.funtranslations.com/translate/minion.json";
 
-/*translateBtn.addEventListener("click", translateText);
+translateBtn.addEventListener("click", translateText);
 
 function translateText(){
     var text1 = userInput.value;
@@ -25,4 +25,4 @@ function translateText(){
         } )
 
 } 
-*/
+
