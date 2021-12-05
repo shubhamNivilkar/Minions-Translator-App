@@ -9,6 +9,7 @@ h1{
     color: yellow;
    
 }
+
 h2{
     text-align: center;
     padding-top: 20px;
@@ -16,9 +17,9 @@ h2{
 }
 
 #text-output{
-    width: 74%;
+    width: 73%;
     height: 22%;
-    padding: 20px;
+    padding: 1.25rem;
     background:rgb(255, 255, 255);
     border: 3px solid rgb(10, 173, 248);
     overflow: scroll;
@@ -49,7 +50,7 @@ h2{
     display: block;
     padding: 0.5rem 2.5rem;
     border: 3px solid yellow;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     margin-left: 3rem;
     background-color:yellow;
     font-weight: 750;
@@ -59,11 +60,36 @@ h2{
 }
 
 .container{
-    width: 550px;
-    height: 400px;
+    width: 34.375rem;
+    height: 25rem;
     border: 5px solid yellow;
     border-radius: 15px;
    
   
 
 }
+
+@media only screen and (max-width: 43.75rem){
+    .container{
+        width: 15rem;
+        height: 50rem;
+    }
+
+    #user-input{
+        width: 60%;
+        height:25%;
+    }
+
+    #text-output{
+        width: 48%;
+        height: 15%;
+    }
+
+    #translate-btn{
+        padding: 0.1rem 0.6rem;
+    }
+}
+
+
+
+
